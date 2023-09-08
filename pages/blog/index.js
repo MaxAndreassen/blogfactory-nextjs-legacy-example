@@ -2,7 +2,9 @@ import { BlogFactoryNextJS } from "@blogfactory/nextjs";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const blogFactory = new BlogFactoryNextJS("[INSERT_API_KEY_HERE]").pages;
+const blogFactory = new BlogFactoryNextJS(
+  process.env.NEXT_PUBLIC_BLOGFACTORY_PROJECT_ID
+).pages;
 
 export default function Blog() {
   const [posts, setPosts] = useState([]);

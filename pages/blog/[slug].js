@@ -2,7 +2,7 @@ import { BlogFactoryNextJS } from "@blogfactory/nextjs";
 import Link from "next/link";
 
 const blogFactory = new BlogFactoryNextJS(
-  "VRUoHfBED8+jSN46XDUb3TtSQnpYYvsqq5xwmWtOCc0="
+  process.env.NEXT_PUBLIC_BLOGFACTORY_PROJECT_ID
 );
 const { getStaticPaths, getStaticProps, PostPage } = blogFactory.pages;
 

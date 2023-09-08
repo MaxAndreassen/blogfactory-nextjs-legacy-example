@@ -4,7 +4,7 @@
 
 ## Setup Guide
 
-First, create an .env.local file in the root directory of the project, and add the below env var, using your own project id. If you do not have your project id, you can find it at https://blogfactory.dev/posts in the bottom left of the screen.
+First, create an .env.local file in the root directory of the project, and then add the below env var, using your own project id. If you do not have your project id, you can find it at https://blogfactory.dev/posts in the bottom left of the screen.
 
 ```bash
 NEXT_PUBLIC_BLOGFACTORY_PROJECT_ID="[INSERT_YOUR_PROJECT_ID]"
